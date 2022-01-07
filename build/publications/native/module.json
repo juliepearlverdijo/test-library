@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-library/1.0.0/test-library-1.0.0.module",
+    "group": "me.anthonypc2",
+    "module": "test-library",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-library.klib",
+          "url": "test-library-native-1.0.0.klib",
+          "size": 5925,
+          "sha512": "77e039138d78f23b3b82de52bfabfb30b5f3ff9aef94d44e943327a4016acac80743050394b09418c14ab3fd89fa047a0bec63b85e90963694cc91d9d95a47c9",
+          "sha256": "bbe25888cf1b0a8e4a83bc0d906217f5525d55176fbd0e8de44aa04fbc668295",
+          "sha1": "cf10344fd30bbce9a881668b18ade594b280e431",
+          "md5": "2d21cf24493ef613576a1ff5e5805cae"
+        }
+      ]
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-library-native-1.0.0-metadata.jar",
+          "url": "test-library-native-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "e1c3c1fb640d13a33ed681ce2274b554dc1e4dcd39f27473029f33eb9f08e8905c2a77ac3ebc2fc1d69437c1655d9ab0fe6a97c128ae3d9b4a901115267dc901",
+          "sha256": "09dfd32372c7287dfda6949527e762e5a536af997d2106395b0d25906d24da2e",
+          "sha1": "349402e91624c2213151cd30498a24bef43a259a",
+          "md5": "c1c9b0b284d089781d677c3162630972"
+        }
+      ]
+    }
+  ]
+}

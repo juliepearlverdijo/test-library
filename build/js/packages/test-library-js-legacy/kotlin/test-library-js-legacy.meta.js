@@ -1,0 +1,1 @@
+// Kotlin.kotlin_module_metadata(393729, "test-library-js-legacy", "H4sIAAAAAAAAAC2OQQ6CMBREf0spn78wDW4alpyAeAPdSWJi4gkIqUIoxWA3XsOVR/EAxnPZAKuZeTOLARTZl1FF8lEPd2sIz7b213EaSPajt52jaO+eJFw9GJIXP3XuFnQZJ01rmv5kKDo6T3FrrB2zkrgCkgiKaQieB89VpGHWWC+dXDNqyDd5qtKcl+KD7I1QaPxxzXa8jA4ceSWVWEootjqeMQSYBCgDfKEgIMjXv39Zanqp0gAAAA==");
