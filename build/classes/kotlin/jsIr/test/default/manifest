@@ -1,7 +1,0 @@
-builtins_platform=JS
-unique_name=me.anthonypc2\:test-library_test
-compiler_version=1.5.10
-depends=me.anthonypc2\:test-library kotlin-test kotlin
-abi_version=1.4.2
-metadata_version=1.4.1
-ir_version=1.0.0
